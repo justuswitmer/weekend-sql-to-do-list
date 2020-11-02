@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vendors/jquery-3.5.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>My To-Do List</title>
+</head>
+
+<body>
+    <h1>My To-Do List</h1>
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" id="taskIn" placeholder="task">
+                    <select id="priorityIn" class="form-control">
+                        <option value="">priority</option>
+                        <option value="low">low</option>
+                        <option value="medium">medium</option>
+                        <option value="high">high</option>
+                    </select>
+                    <input type="text" id="notesIn" placeholder="notes">
+                    <button id="addTaskIn" class="btn btn-success">Add Task</button>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Task</th>
+                                <th>Priority</th>
+                                <th>Notes</th>
+                                <th>Status</th>
+                                <th>Complete?</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tasksOut"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
