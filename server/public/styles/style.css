@@ -1,0 +1,47 @@
+body {
+    background-color: #4c96a3;
+    color: #f5f5f5;
+    font-family: Garamond;
+    font-size: 18px;
+    text-align: center;
+}
+
+.completeBackground {
+    background-color: #008000;
+    color: #ce9553;
+}
+
+.jumbotron {
+    background-color: #4c96a3;
+    color: #f5f5f5;
+    font-family: Garamond;
+    font-size: 18px;
+}
+
+.form-control {
+    width: auto;
+    font-size: 18px;
+}
+
+.col-sm-6 {
+    display: inline-flex;
+    color: #7c7c7c;
+}
+
+.form-control {
+    height: auto;
+}
+
+.container-fluid {
+    padding-bottom: 30px;
+}
+
+thead {
+    background-color: #8b8989;
+
+}
+
+table {
+    background-color: #6b555c;
+    text-align: left;
+}
